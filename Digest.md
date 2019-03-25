@@ -17,6 +17,7 @@
     keeper, types[unnecessary when simple]
     app
     rest
-    
+    module_client
+    tx, query
 ### Test
     
