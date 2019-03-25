@@ -9,3 +9,23 @@ This repository contains the source code of the nameservice tutorial.
 ## Building and running the example
 
 **[Click here](./tutorial/build-run.md)**  for instructions on how to build and run the code.
+
+# DIGET
+### Cosmos SDK Modules
+    version:
+    types:
+    client:
+    keys,
+    lcd,
+    rpc,
+    tx,
+    x:
+    auth,
+    bank
+
+### Modification Order
+	  msg
+    keeper
+    handler
+### Test
+    
