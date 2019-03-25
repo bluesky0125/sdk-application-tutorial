@@ -54,4 +54,5 @@
     hscli query account $(hscli keys show jack -a) 
     
     # sendtransaction
-    hscli tx htdfservice sendfrom cosmos1yqgv2rhxcgrf5jqrxlg80at5szzlarlcy254re 5htdftoken --from junying 
+    hscli tx htdfservice sendfrom cosmos1yqgv2rhxcgrf5jqrxlg80at5szzlarlcy254re 5htdftoken --from alice 
+    hscli tx htdfservice sendfrom $(hscli keys show jack -a) 5htdftoken --from alice
