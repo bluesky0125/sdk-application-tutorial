@@ -42,3 +42,7 @@
   
 ### Test
     hsd start --consensus.create_empty_blocks=false
+    
+    hscli query account $(hscli keys show jack -a) 
+    
+    hscli tx htdfservice sendfrom cosmos1yqgv2rhxcgrf5jqrxlg80at5szzlarlcy254re 5htdftoken --from junying 
