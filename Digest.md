@@ -21,5 +21,10 @@
     tx, query(query not used)
     querier(not used)
     main
+    
+    [cosmos-sdk]
+    bank
+    auth
+    
  ###
 
