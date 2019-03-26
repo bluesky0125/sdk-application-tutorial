@@ -1,5 +1,6 @@
 # DIGET
-### Cosmos SDK Modules
+### Modules
+#### - cosmos sdk
     version:
     types:
     client:
@@ -10,8 +11,10 @@
     x:
     auth,
     bank
+#### - nameservice
 
-### Modification Order
+### Procedure
+#### - nameservice
     msg
     handler
     keeper, types(both not used)
@@ -22,9 +25,9 @@
     querier(not used)
     main
     
-    [cosmos-sdk]
+#### - cosmos-sdk
     bank
     auth
     
- ###
+###
 
